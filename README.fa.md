@@ -1,7 +1,5 @@
 # Persian Text Classification with TF-IDF
 
-🌐 English | [فارسی](README.fa.md)
-
 Multi-class Persian text classifier using TF-IDF features
 and machine learning algorithms.
 
@@ -22,10 +20,9 @@ and machine learning algorithms.
 - فرهنگی / Culture
 
 ## Dataset
-60 samples (15 per category). The original version had only 24
-samples (6 per category), which caused the bigram TF-IDF features to
-overfit — test accuracy was only 17-33%. After expanding the dataset,
-accuracy reached ~80%.
+۶۰ نمونه (۱۵ در هر دسته). نسخه‌ی اولیه فقط ۲۴ نمونه (۶ در هر دسته)
+داشت که باعث می‌شد TF-IDF با بای‌گرام بیش‌برازش (overfit) کند و دقت
+روی داده‌ی آزمون فقط ۱۷-۳۳٪ باشد؛ با افزایش داده به دقت ~۸۰٪ رسید.
 
 ## Installation
 ```
